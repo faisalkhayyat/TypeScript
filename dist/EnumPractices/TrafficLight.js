@@ -8,8 +8,9 @@ var TrafficColor;
     TrafficColor["GREEN"] = "go";
 })(TrafficColor || (exports.TrafficColor = TrafficColor = {}));
 function TrafficMsg(state) {
-    console.log("Traffic Color: ".concat(state.toUpperCase(), ", Action: ").concat(TrafficColor[state.toUpperCase()]));
+    console.log(`Traffic Color: ${state.toUpperCase()}, Action: ${TrafficColor}`);
 }
 exports.TrafficMsg = TrafficMsg;
-var trafficColor = "gREeN";
+let trafficColor = "gREeN";
 TrafficMsg(trafficColor);
+//# sourceMappingURL=TrafficLight.js.map

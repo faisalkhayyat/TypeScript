@@ -1,3 +1,4 @@
+"use strict";
 // returns never
 // returns void
 function neverReturn(name) {
@@ -8,6 +9,7 @@ function neverReturn(name) {
 function voidReturn(name) {
     console.log(name);
 }
-var s1 = "faisal";
+let s1 = "faisal";
 voidReturn(s1);
 neverReturn(s1);
+//# sourceMappingURL=never_void.js.map

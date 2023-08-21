@@ -5,7 +5,7 @@ export enum TrafficColor{
 }
 
 export function TrafficMsg(state: string){
-    console.log(`Traffic Color: ${state.toUpperCase()}, Action: ${TrafficColor[state.toUpperCase()]}`);
+    console.log(`Traffic Color: ${state.toUpperCase()}, Action: ${TrafficColor}`);
 }
 
 let trafficColor: string = "gREeN";

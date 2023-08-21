@@ -1,4 +1,4 @@
-import { Article } from "./TypeAliases/Article";
+import { Article } from "../TypeAliases/Article";
 
 let listOfArticles: (Article)[] = [
     {id:1, title:"Communication", isPublished: true, publisher: "faisal"},

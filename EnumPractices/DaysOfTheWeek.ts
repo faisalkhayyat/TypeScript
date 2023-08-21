@@ -9,7 +9,7 @@ export enum DayTypes {
 };
 
 export function DayType(day: string): void{
-    console.log(`${day} is a ${DayTypes[day]}`)
+    console.log(`${day} is a ${DayTypes}`)
 }
 
 let day : string = "FriDaY";

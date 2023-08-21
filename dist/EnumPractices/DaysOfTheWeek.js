@@ -13,8 +13,9 @@ var DayTypes;
 })(DayTypes || (exports.DayTypes = DayTypes = {}));
 ;
 function DayType(day) {
-    console.log("".concat(day, " is a ").concat(DayTypes[day]));
+    console.log(`${day} is a ${DayTypes}`);
 }
 exports.DayType = DayType;
-var day = "FriDaY";
+let day = "FriDaY";
 DayType(day.toUpperCase());
+//# sourceMappingURL=DaysOfTheWeek.js.map
