@@ -1,7 +1,7 @@
 // returns never
 // returns void
 
-function neverReturn(name: string){
+function neverReturn(name: string): never{
     while(true){
         console.log(name);
     }
